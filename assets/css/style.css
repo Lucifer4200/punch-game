@@ -1,0 +1,40 @@
+#bag {
+  width: 200px;
+  height: 500px;
+  margin: 0 auto;
+  background-size: 80%;
+  background: url(../../assets/images/bag.png) center no-repeat;
+}
+
+#bag.burst {
+  background: url(../../assets/images/bag-burst.png) center no-repeat;
+}
+
+#bag-health {
+  width: 200px;
+  border: 2px solid #000;
+  margin: 20px auto 20px auto;
+}
+
+#bag-health div {
+  height: 20px;
+  background: crimson;
+}
+
+#game-control {
+  width: 175px;
+  margin: 0 auto;
+}
+
+#game-control button {
+  color: #fff;
+  border-radius: 5px;
+  padding: 3px 20px;
+  background: #000;
+}
+
+#game-control button:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+/*# sourceMappingURL=style.css.map */
